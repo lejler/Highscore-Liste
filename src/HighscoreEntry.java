@@ -24,4 +24,9 @@ public class HighscoreEntry {
         this.score = score;
     }
 
+    @Override
+    public String toString() {
+        return nickname + "\t" + score;
+    }
+
 }
